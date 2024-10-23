@@ -20,7 +20,7 @@ def nuevo():
         categoria = request.form['categoria']
         fecha_vencimiento = request.form['fecha_vencimiento']
 
-        # Crear nuevo producto como diccionario
+     
         nuevo_producto = {
             'id': id_producto,
             'nombre': nombre,
